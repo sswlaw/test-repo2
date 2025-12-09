@@ -8,9 +8,13 @@ second = input("Enter the second number : ")
 num1 = int(first)
 num2 = int(second)
 
-#합 구하기
-result = num1 + num2
+#합, 차, 곱 계산
+sum_result = num1 + num2
+sub_result = num1 - num2
+mul_result = num1 * num2
+
 
 #출력
-print("Sum : ", result)
-
+print("Sum : ", sum_result)
+print("Sub : ", sun_result)
+print("mul : ", mul_result)
